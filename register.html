@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="register-container">
+        <h2>Registrasi</h2>
+        <form action="registrasiberhasil.html" method="POST">
+            <div class="input-group">
+                <label for="fullname">Nama Lengkap:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Masukkan nama lengkap" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Kata Sandi:</label>
+                <input type="password" id="password" name="password" placeholder="Masukkan kata sandi" required>
+            </div>
+            <button type="submit">Daftar</button>
+        </form>
+        <a href="login.html" class="login-link">Sudah punya akun? Login di sini</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

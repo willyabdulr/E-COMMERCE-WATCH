@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaksi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="topnav">
+        <a class="navbar-brand ps-3" href="index.html">E-COMMERCE WATCH</a>
+        <!-- <a href="index.html">Beranda</a> -->
+        <a href="beranda.html">Beranda</a>
+        <a href="profile.html">Profile</a>
+        <a href="product.html">Product</a>
+        <a href="transaksi.html">Transaksi</a>
+        <a href="logout.html">Logout</a>
+        <!-- <a href="contact.html">Contact</a> -->
+    </nav>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <h2>TRANSAKSI</h2>
+        <!-- <table class="table">
+            <thead>
+                <tr>
+                    <th>Nama Produk</th>
+                    <th>Jumlah</th>
+                    <th>Harga</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rolex</td>
+                    <td>1</td>
+                    <td>Rp10.000.000</td>
+                    <td>Rp10.000.000</td>
+                </tr>
+                <tr>
+                    <td>Casio</td>
+                    <td>2</td>
+                    <td>Rp5.000.000</td>
+                    <td>Rp10.000.000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">Total Semua</th>
+                    <th>Rp20.000.000</th>
+                </tr>
+            </tfoot>
+        </table> -->
+        <form action="prosestransaksi.html" method="POST">
+            <div class="form-group">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukan Nama" required>
+            </div>
+            <div class="form-group">
+                <label for="alamat">Alamat Pengiriman</label>
+                <input type="text" id="alamat" name="alamat" placeholder="Masukan Alamat" required>
+            </div>
+            <div class="input-group">
+                <label for="amount">Telpon Penerima:</label>
+                <input type="number" id="amount" name="amount" placeholder="Masukan Telepon" required>
+            </div>
+            <div class="form-group">
+                <label for="nama">Nama Product</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukan Product" required>
+            </div>
+            <div class="input-group">
+                <label for="amount">Jumlah Product:</label>
+                <input type="number" id="amount" name="amount" placeholder="Masukkan jumlah" required>
+            </div>
+            <div class="input-group">
+                <label for="amount">Harga Product:</label>
+                <input type="number" id="amount" name="amount" placeholder="Masukkan Harga" required>
+            </div>
+            
+            <!-- <div class="form-group">
+                <label for="metode_pembayaran">Metode Pembayaran</label>
+                <select id="metode_pembayaran" name="metode_pembayaran" required>
+                    <option value="transfer">Transfer Bank</option>
+                    <option value="cod">Cash on Delivery</option>
+                </select>
+            </div> -->
+            <div class="form-group">
+                <button type="submit">Konfirmasi Pembelian</button>
+            </div>
+        </form>
+        <div class="link-container">
+            <a href="daftartransaksi.html">Lihat Daftar Transaksi</a>
+        </div>
+    </div>
+    <!-- <form action="logout.html" method="POST">
+        <button type="submit" class="logout-button">Logout</button>
+    </form> -->
+    <br>
+    <br>
+    <br>
+    <div class="foot">
+        <p>&copy; 2024 Website E-COMMERCE WATCH. | <a href="contact.html">Hubungi Kami</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,2 @@
+console.log("Username:", username);
+console.log("Stored Password:", storedPassword);
